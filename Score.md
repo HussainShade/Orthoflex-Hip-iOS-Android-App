@@ -1,5 +1,7 @@
 # Harris Hip Score
 
+For more information, visit the [Harris Hip Score reference website](https://www.orthopaedicscore.com/scorepages/harris_hip_score.html).
+
 ## Pain
 
 | Description                                                                                  | Score |
