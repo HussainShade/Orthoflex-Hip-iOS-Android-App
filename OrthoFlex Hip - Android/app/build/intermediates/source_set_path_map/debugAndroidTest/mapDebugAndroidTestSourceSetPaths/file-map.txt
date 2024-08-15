@@ -1,0 +1,6 @@
+com.example.orthoflexhip.test.app-jetified-annotation-experimental-1.3.0-0 C:\Users\hussa\.gradle\caches\transforms-3\7e43784d75062c1d278ba4ea4f4a5e8b\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.orthoflexhip.test.app-jetified-core-1.5.0-1 C:\Users\hussa\.gradle\caches\transforms-3\c8edbcd5dd1fb5a9caa1adb4c7e174cb\transformed\jetified-core-1.5.0\res
+com.example.orthoflexhip.test.app-androidTest-2 Z:\OrthoFlexHip\OrthoFlexHip\app\build\generated\res\resValues\androidTest\debug
+com.example.orthoflexhip.test.app-mergeDebugAndroidTestResources-3 Z:\OrthoFlexHip\OrthoFlexHip\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.orthoflexhip.test.app-mergeDebugAndroidTestResources-4 Z:\OrthoFlexHip\OrthoFlexHip\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.orthoflexhip.test.app-debugAndroidTest-5 Z:\OrthoFlexHip\OrthoFlexHip\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.orthoflexhip"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="34" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="33"
+        android:minSdkVersion="26" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="33"
+        android:minSdkVersion="26" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <!--
+ Required only if your app needs to access videos
+         that other apps created.
+    -->
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <permission
+        android:name="com.example.orthoflexhip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.orthoflexhip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:enableOnBackInvokedCallback="true"
+        android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hasFragileUserData="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.OrthoFlexHip"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.example.orthoflexhip.ViewExerciseVideosActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.FeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.Item6Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.Item5Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.Items4Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.Item3Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.Items2Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.PatientDischargeSummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.PatientViewXrayActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.MedicationsPatientsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.ExerciseVideosPatinetsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.AddMedicationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.HarrisHipScore3Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.BlankFragment"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.BlankFragment2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.BlankFragment3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.BlankFragment4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.HarrisHipScore2Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.HarrisHipScoreActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.NavHeaderActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.ViewMedicalDetailsDoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.AddPatientsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.PatientProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.DoctorProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.UploadExerciseVideosActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.DoctorHomepageActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.HelpActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.DoctorLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.ViewXRayActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.ExerciseVideosActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.ItemsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.TrackAppoinmentsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.BookAnAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.DischargeSummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.MedicationsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.ViewMedicalDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.PatientHompageActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.PatientLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.SelectLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.orthoflexhip.LaunchScreen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.orthoflexhip.com.squareup.picasso"
+            android:exported="false" />
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.orthoflexhip.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

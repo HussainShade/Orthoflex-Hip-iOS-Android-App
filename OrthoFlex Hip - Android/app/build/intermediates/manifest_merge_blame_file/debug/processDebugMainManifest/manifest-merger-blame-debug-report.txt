@@ -1,0 +1,416 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.orthoflexhip"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:5:5-67
+11-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+12-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:6:5-82
+12-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:6:22-79
+13    <uses-permission
+13-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:7:5-10:38
+14        android:name="android.permission.READ_EXTERNAL_STORAGE"
+14-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:8:9-64
+15        android:maxSdkVersion="33"
+15-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:9:9-35
+16        android:minSdkVersion="26" />
+16-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:10:9-35
+17    <uses-permission
+17-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:11:5-15:40
+18        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+18-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:12:9-65
+19        android:maxSdkVersion="33"
+19-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:13:9-35
+20        android:minSdkVersion="26" />
+20-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:14:9-35
+21    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+21-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:16:5-76
+21-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:16:22-73
+22    <!--
+23 Required only if your app needs to access videos
+24         that other apps created.
+25    -->
+26    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+26-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:21:5-23:46
+26-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:22:9-59
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:24:5-79
+27-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:24:22-76
+28
+29    <permission
+29-->[androidx.core:core:1.9.0] C:\Users\hussa\.gradle\caches\transforms-3\03dc958e7bcd9432f9fcbe0a3f92a6ed\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+30        android:name="com.example.orthoflexhip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.9.0] C:\Users\hussa\.gradle\caches\transforms-3\03dc958e7bcd9432f9fcbe0a3f92a6ed\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.9.0] C:\Users\hussa\.gradle\caches\transforms-3\03dc958e7bcd9432f9fcbe0a3f92a6ed\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.example.orthoflexhip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.9.0] C:\Users\hussa\.gradle\caches\transforms-3\03dc958e7bcd9432f9fcbe0a3f92a6ed\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.9.0] C:\Users\hussa\.gradle\caches\transforms-3\03dc958e7bcd9432f9fcbe0a3f92a6ed\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+34
+35    <application
+35-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:26:5-166:19
+36        android:allowBackup="true"
+36-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:27:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.9.0] C:\Users\hussa\.gradle\caches\transforms-3\03dc958e7bcd9432f9fcbe0a3f92a6ed\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+38        android:dataExtractionRules="@xml/data_extraction_rules"
+38-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:28:9-65
+39        android:debuggable="true"
+40        android:enableOnBackInvokedCallback="true"
+40-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:29:9-51
+41        android:extractNativeLibs="false"
+42        android:fullBackupContent="@xml/backup_rules"
+42-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:30:9-54
+43        android:hasFragileUserData="true"
+43-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:31:9-42
+44        android:icon="@drawable/logo"
+44-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:32:9-38
+45        android:label="@string/app_name"
+45-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:33:9-41
+46        android:requestLegacyExternalStorage="true"
+46-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:34:9-52
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:35:9-54
+48        android:supportsRtl="true"
+48-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:36:9-35
+49        android:testOnly="true"
+50        android:theme="@style/Theme.OrthoFlexHip"
+50-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:37:9-50
+51        android:usesCleartextTraffic="true" >
+51-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:38:9-44
+52        <activity
+52-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:40:9-42:40
+53            android:name="com.example.orthoflexhip.ViewExerciseVideosActivity"
+53-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:41:13-55
+54            android:exported="false" />
+54-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:42:13-37
+55        <activity
+55-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:43:9-45:40
+56            android:name="com.example.orthoflexhip.FeedbackActivity"
+56-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:44:13-45
+57            android:exported="false" />
+57-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:45:13-37
+58        <activity
+58-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:46:9-48:40
+59            android:name="com.example.orthoflexhip.Item6Activity"
+59-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:47:13-42
+60            android:exported="false" />
+60-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:48:13-37
+61        <activity
+61-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:49:9-51:40
+62            android:name="com.example.orthoflexhip.Item5Activity"
+62-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:50:13-42
+63            android:exported="false" />
+63-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:51:13-37
+64        <activity
+64-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:52:9-54:40
+65            android:name="com.example.orthoflexhip.Items4Activity"
+65-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:53:13-43
+66            android:exported="false" />
+66-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:54:13-37
+67        <activity
+67-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:55:9-57:40
+68            android:name="com.example.orthoflexhip.Item3Activity"
+68-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:56:13-42
+69            android:exported="false" />
+69-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:57:13-37
+70        <activity
+70-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:58:9-60:40
+71            android:name="com.example.orthoflexhip.Items2Activity"
+71-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:59:13-43
+72            android:exported="false" />
+72-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:60:13-37
+73        <activity
+73-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:61:9-63:40
+74            android:name="com.example.orthoflexhip.PatientDischargeSummaryActivity"
+74-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:62:13-60
+75            android:exported="false" />
+75-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:63:13-37
+76        <activity
+76-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:64:9-66:40
+77            android:name="com.example.orthoflexhip.PatientViewXrayActivity"
+77-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:65:13-52
+78            android:exported="false" />
+78-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:66:13-37
+79        <activity
+79-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:67:9-69:40
+80            android:name="com.example.orthoflexhip.MedicationsPatientsActivity"
+80-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:68:13-56
+81            android:exported="false" />
+81-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:69:13-37
+82        <activity
+82-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:70:9-72:40
+83            android:name="com.example.orthoflexhip.ExerciseVideosPatinetsActivity"
+83-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:71:13-59
+84            android:exported="false" />
+84-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:72:13-37
+85        <activity
+85-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:73:9-75:40
+86            android:name="com.example.orthoflexhip.AddMedicationActivity"
+86-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:74:13-50
+87            android:exported="false" />
+87-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:75:13-37
+88        <activity
+88-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:76:9-78:40
+89            android:name="com.example.orthoflexhip.HarrisHipScore3Activity"
+89-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:77:13-52
+90            android:exported="false" />
+90-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:78:13-37
+91        <activity
+91-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:79:9-81:40
+92            android:name="com.example.orthoflexhip.BlankFragment"
+92-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:80:13-42
+93            android:exported="false" />
+93-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:81:13-37
+94        <activity
+94-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:82:9-84:40
+95            android:name="com.example.orthoflexhip.BlankFragment2"
+95-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:83:13-43
+96            android:exported="false" />
+96-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:84:13-37
+97        <activity
+97-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:85:9-87:40
+98            android:name="com.example.orthoflexhip.BlankFragment3"
+98-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:86:13-43
+99            android:exported="false" />
+99-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:87:13-37
+100        <activity
+100-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:88:9-90:40
+101            android:name="com.example.orthoflexhip.BlankFragment4"
+101-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:89:13-43
+102            android:exported="false" />
+102-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:90:13-37
+103        <activity
+103-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:91:9-93:40
+104            android:name="com.example.orthoflexhip.HarrisHipScore2Activity"
+104-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:92:13-52
+105            android:exported="false" />
+105-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:93:13-37
+106        <activity
+106-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:94:9-96:40
+107            android:name="com.example.orthoflexhip.HarrisHipScoreActivity"
+107-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:95:13-51
+108            android:exported="false" />
+108-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:96:13-37
+109        <activity
+109-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:97:9-99:40
+110            android:name="com.example.orthoflexhip.NavHeaderActivity"
+110-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:98:13-46
+111            android:exported="false" />
+111-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:99:13-37
+112        <activity
+112-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:100:9-102:40
+113            android:name="com.example.orthoflexhip.ViewMedicalDetailsDoctorActivity"
+113-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:101:13-61
+114            android:exported="false" />
+114-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:102:13-37
+115        <activity
+115-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:103:9-105:40
+116            android:name="com.example.orthoflexhip.AddPatientsActivity"
+116-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:104:13-48
+117            android:exported="false" />
+117-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:105:13-37
+118        <activity
+118-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:106:9-108:40
+119            android:name="com.example.orthoflexhip.PatientProfileActivity"
+119-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:107:13-51
+120            android:exported="false" />
+120-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:108:13-37
+121        <activity
+121-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:109:9-111:40
+122            android:name="com.example.orthoflexhip.DoctorProfileActivity"
+122-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:110:13-50
+123            android:exported="false" />
+123-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:111:13-37
+124        <activity
+124-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:112:9-114:40
+125            android:name="com.example.orthoflexhip.UploadExerciseVideosActivity"
+125-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:113:13-57
+126            android:exported="false" />
+126-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:114:13-37
+127        <activity
+127-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:115:9-117:40
+128            android:name="com.example.orthoflexhip.DoctorHomepageActivity"
+128-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:116:13-51
+129            android:exported="false" />
+129-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:117:13-37
+130        <activity
+130-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:118:9-120:40
+131            android:name="com.example.orthoflexhip.HelpActivity"
+131-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:119:13-41
+132            android:exported="false" />
+132-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:120:13-37
+133        <activity
+133-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:121:9-123:40
+134            android:name="com.example.orthoflexhip.DoctorLoginActivity"
+134-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:122:13-48
+135            android:exported="false" />
+135-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:123:13-37
+136        <activity
+136-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:124:9-126:40
+137            android:name="com.example.orthoflexhip.ViewXRayActivity"
+137-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:125:13-45
+138            android:exported="false" />
+138-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:126:13-37
+139        <activity
+139-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:127:9-129:40
+140            android:name="com.example.orthoflexhip.ExerciseVideosActivity"
+140-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:128:13-51
+141            android:exported="false" />
+141-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:129:13-37
+142        <activity
+142-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:130:9-132:40
+143            android:name="com.example.orthoflexhip.ItemsActivity"
+143-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:131:13-42
+144            android:exported="false" />
+144-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:132:13-37
+145        <activity
+145-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:133:9-135:40
+146            android:name="com.example.orthoflexhip.TrackAppoinmentsActivity"
+146-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:134:13-53
+147            android:exported="false" />
+147-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:135:13-37
+148        <activity
+148-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:136:9-138:40
+149            android:name="com.example.orthoflexhip.BookAnAppointmentActivity"
+149-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:137:13-54
+150            android:exported="false" />
+150-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:138:13-37
+151        <activity
+151-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:139:9-141:40
+152            android:name="com.example.orthoflexhip.DischargeSummaryActivity"
+152-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:140:13-53
+153            android:exported="false" />
+153-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:141:13-37
+154        <activity
+154-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:142:9-144:40
+155            android:name="com.example.orthoflexhip.MedicationsActivity"
+155-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:143:13-48
+156            android:exported="false" />
+156-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:144:13-37
+157        <activity
+157-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:145:9-147:40
+158            android:name="com.example.orthoflexhip.ViewMedicalDetailsActivity"
+158-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:146:13-55
+159            android:exported="false" />
+159-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:147:13-37
+160        <activity
+160-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:148:9-150:40
+161            android:name="com.example.orthoflexhip.PatientHompageActivity"
+161-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:149:13-51
+162            android:exported="false" />
+162-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:150:13-37
+163        <activity
+163-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:151:9-153:40
+164            android:name="com.example.orthoflexhip.PatientLoginActivity"
+164-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:152:13-49
+165            android:exported="false" />
+165-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:153:13-37
+166        <activity
+166-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:154:9-156:40
+167            android:name="com.example.orthoflexhip.SelectLoginActivity"
+167-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:155:13-48
+168            android:exported="false" />
+168-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:156:13-37
+169        <activity
+169-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:157:9-165:20
+170            android:name="com.example.orthoflexhip.LaunchScreen"
+170-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:158:13-41
+171            android:exported="true" >
+171-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:159:13-36
+172            <intent-filter>
+172-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:160:13-164:29
+173                <action android:name="android.intent.action.MAIN" />
+173-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:161:17-69
+173-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:161:25-66
+174
+175                <category android:name="android.intent.category.LAUNCHER" />
+175-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:163:17-77
+175-->Z:\OrthoFlexHip\OrthoFlexHip\app\src\main\AndroidManifest.xml:163:27-74
+176            </intent-filter>
+177        </activity>
+178
+179        <provider
+179-->[com.squareup.picasso:picasso:2.71828] C:\Users\hussa\.gradle\caches\transforms-3\c7f4f70be5717abccfce2fdd570500e2\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+180            android:name="com.squareup.picasso.PicassoProvider"
+180-->[com.squareup.picasso:picasso:2.71828] C:\Users\hussa\.gradle\caches\transforms-3\c7f4f70be5717abccfce2fdd570500e2\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+181            android:authorities="com.example.orthoflexhip.com.squareup.picasso"
+181-->[com.squareup.picasso:picasso:2.71828] C:\Users\hussa\.gradle\caches\transforms-3\c7f4f70be5717abccfce2fdd570500e2\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+182            android:exported="false" />
+182-->[com.squareup.picasso:picasso:2.71828] C:\Users\hussa\.gradle\caches\transforms-3\c7f4f70be5717abccfce2fdd570500e2\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+183        <provider
+183-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hussa\.gradle\caches\transforms-3\db905162598ee4497385e5b03c78ffca\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+184            android:name="androidx.startup.InitializationProvider"
+184-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hussa\.gradle\caches\transforms-3\db905162598ee4497385e5b03c78ffca\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+185            android:authorities="com.example.orthoflexhip.androidx-startup"
+185-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hussa\.gradle\caches\transforms-3\db905162598ee4497385e5b03c78ffca\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+186            android:exported="false" >
+186-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hussa\.gradle\caches\transforms-3\db905162598ee4497385e5b03c78ffca\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+187            <meta-data
+187-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hussa\.gradle\caches\transforms-3\db905162598ee4497385e5b03c78ffca\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+188                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+188-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hussa\.gradle\caches\transforms-3\db905162598ee4497385e5b03c78ffca\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+189                android:value="androidx.startup" />
+189-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hussa\.gradle\caches\transforms-3\db905162598ee4497385e5b03c78ffca\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+190            <meta-data
+190-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\hussa\.gradle\caches\transforms-3\fae221b947ff451578c50e3dc3a3c77c\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+191                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+191-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\hussa\.gradle\caches\transforms-3\fae221b947ff451578c50e3dc3a3c77c\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+192                android:value="androidx.startup" />
+192-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\hussa\.gradle\caches\transforms-3\fae221b947ff451578c50e3dc3a3c77c\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+193            <meta-data
+193-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hussa\.gradle\caches\transforms-3\4aa35c7e0d3d34a03a7996a29c731bc9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+194                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+194-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hussa\.gradle\caches\transforms-3\4aa35c7e0d3d34a03a7996a29c731bc9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+195                android:value="androidx.startup" />
+195-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hussa\.gradle\caches\transforms-3\4aa35c7e0d3d34a03a7996a29c731bc9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+196        </provider>
+197
+198        <receiver
+198-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hussa\.gradle\caches\transforms-3\4aa35c7e0d3d34a03a7996a29c731bc9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+199            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+199-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hussa\.gradle\caches\transforms-3\4aa35c7e0d3d34a03a7996a29c731bc9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+200            android:directBootAware="false"
+200-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hussa\.gradle\caches\transforms-3\4aa35c7e0d3d34a03a7996a29c731bc9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+201            android:enabled="true"
+201-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hussa\.gradle\caches\transforms-3\4aa35c7e0d3d34a03a7996a29c731bc9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+202            android:exported="true"
+202-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hussa\.gradle\caches\transforms-3\4aa35c7e0d3d34a03a7996a29c731bc9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+203            android:permission="android.permission.DUMP" >
+203-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hussa\.gradle\caches\transforms-3\4aa35c7e0d3d34a03a7996a29c731bc9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+204            <intent-filter>
+204-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hussa\.gradle\caches\transforms-3\4aa35c7e0d3d34a03a7996a29c731bc9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+205                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+205-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hussa\.gradle\caches\transforms-3\4aa35c7e0d3d34a03a7996a29c731bc9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+205-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hussa\.gradle\caches\transforms-3\4aa35c7e0d3d34a03a7996a29c731bc9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+206            </intent-filter>
+207            <intent-filter>
+207-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hussa\.gradle\caches\transforms-3\4aa35c7e0d3d34a03a7996a29c731bc9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+208                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+208-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hussa\.gradle\caches\transforms-3\4aa35c7e0d3d34a03a7996a29c731bc9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+208-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hussa\.gradle\caches\transforms-3\4aa35c7e0d3d34a03a7996a29c731bc9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+209            </intent-filter>
+210            <intent-filter>
+210-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hussa\.gradle\caches\transforms-3\4aa35c7e0d3d34a03a7996a29c731bc9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+211                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+211-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hussa\.gradle\caches\transforms-3\4aa35c7e0d3d34a03a7996a29c731bc9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+211-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hussa\.gradle\caches\transforms-3\4aa35c7e0d3d34a03a7996a29c731bc9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+212            </intent-filter>
+213            <intent-filter>
+213-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hussa\.gradle\caches\transforms-3\4aa35c7e0d3d34a03a7996a29c731bc9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+214                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+214-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hussa\.gradle\caches\transforms-3\4aa35c7e0d3d34a03a7996a29c731bc9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+214-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\hussa\.gradle\caches\transforms-3\4aa35c7e0d3d34a03a7996a29c731bc9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+215            </intent-filter>
+216        </receiver>
+217    </application>
+218
+219</manifest>
